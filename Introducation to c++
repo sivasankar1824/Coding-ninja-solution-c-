@@ -1,0 +1,93 @@
+I,Introducation to c++
+(MCQs)
+1, Including header file
+  include
+2,multi-line comments 
+  /*comment*/
+3,Weakly typed languages
+  JavaScript.
+  
+II,Variables and data types
+(Introduction to variables)
+1, Invalid variable
+  int true;
+2, Valid variable
+  String_mTf5D_="hello";
+(Introduction to data types)
+1,Longest decimal number
+  double;
+2,Bool variable
+  1
+  (Scope of a Variable)
+1, Local scope
+  global,b,c.
+2, Global scopw
+  local,g.
+  (Type casting)
+  1,Find the output I
+    F.
+  2, Find the output II
+    5.
+ III, Input/Output in c++
+ MCQs
+ 1,Find X
+ None of above.
+ 2,Cin input.
+ Both a and d.
+ PRACTICE PROBLEMS
+ 1,Find area of rectangle.
+ 
+ #include <iostream>
+using namespace std;
+
+int main() {
+    int l,b;
+    scanf("%d %d",&l,&b);
+    printf("%d",l*b);
+
+    return 0;
+}
+2,Print Name and age
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    string c;
+    int n;
+    cin>>c;
+    cin>>n;
+    cout<<"The name of the person is "<< c<<" and the age is "<<n<<".";
+
+    return 0;
+}
+3,Swap Two Numbers
+
+#include <bits/stdc++.h> 
+#include <utility>
+
+pair < int, int > swap(pair < int, int > swapValues) {
+    // Write your code here.
+     int k = swapValues.first;
+    swapValues.first = swapValues.second;
+    swapValues.second = k;
+    return swapValues;
+}
+4,Calculate Simple Interest
+
+#include <bits/stdc++.h> 
+#include <iostream>
+using namespace std;
+
+int main() {
+    //Write your code here
+    int p,t;
+    float i;
+    cin>>p;
+    cin>>i;
+    cin>>t;
+    cout<<floor((p*i*t)/100);
+
+    return 0;
+}
+
